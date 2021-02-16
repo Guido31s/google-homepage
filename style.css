@@ -1,14 +1,24 @@
+body {
+    color:#333;
+}
+header{
+    font-size: 12px;
+}
+.cabeza {
+    padding-top: 5px;
+    margin-right: 1%;
+}
 .logocentro{
     margin-top: 6%;
 }
 .navbar1 {
     display: flex;
     justify-content: end;
-    position: end;
+    
   
 }
 .nav-link {
-    padding-left: 10px;
+    padding-left: 13px;
 }
 .navbar2 {
     display: flex;
@@ -19,8 +29,13 @@
 ul {
     list-style-type: none;
 }
+input {
+
+    outline: none;
+}
 a {
     text-decoration: none;
+    color: #333;
 }
 .logocentro {
     text-align: center;
@@ -33,19 +48,20 @@ border-color: rgba(223,225,229,0);
 .textocentro {
     text-align: center;
 
+
 }
 #lupita {
     position:absolute;
-    margin: 0.9% 0 0 31.5%;
+    margin: 0.9% 0 0 30.5%;
     
     
 }
 .texto {
-    width: 35%;
+    width: 38%;
     border-radius: 24px;
-    height: 44px;
+    height: 42px;
     border-style:double;
-    padding-left: 40px;
+    padding-left: 42px;
 }
 .botones {
     display: flex;
@@ -54,5 +70,36 @@ border-color: rgba(223,225,229,0);
 }
 .boton1 {
     margin-right: 10px;
-    
+    width: 12%;
+    font-size: 14px;
+    background-color: #F8F9FA;
+    height: 35px;
+    border:none;
+}
+.boton2 {
+    width: 12%;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: #F8F9FA;
+    height: 35px;
+    border: none;
+
+}
+.boton1:hover {
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+.boton2:hover{
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+footer{
+    margin-top: 21.5%;
+    display:flex;
+    justify-content: space-between;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color:  #F2F2F2;
+    font-size: 12px;
 }
