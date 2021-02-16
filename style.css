@@ -1,0 +1,58 @@
+.logocentro{
+    margin-top: 6%;
+}
+.navbar1 {
+    display: flex;
+    justify-content: end;
+    position: end;
+  
+}
+.nav-link {
+    padding-left: 10px;
+}
+.navbar2 {
+    display: flex;
+}
+.navbar3 {
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.logocentro {
+    text-align: center;
+}
+.texto:hover {
+    background-color: #fff;
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+border-color: rgba(223,225,229,0);
+}
+.textocentro {
+    text-align: center;
+
+}
+#lupita {
+    position:absolute;
+    margin: 0.9% 0 0 31.5%;
+    
+    
+}
+.texto {
+    width: 35%;
+    border-radius: 24px;
+    height: 44px;
+    border-style:double;
+    padding-left: 40px;
+}
+.botones {
+    display: flex;
+    justify-content: center;
+   
+}
+.boton1 {
+    margin-right: 10px;
+    
+}
